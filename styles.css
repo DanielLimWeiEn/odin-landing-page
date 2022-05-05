@@ -84,3 +84,23 @@ button {
 }
 
 /* Info-1 Styles. */
+
+.info-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 96px 32px 96px;
+}
+
+.info-1-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+    margin-bottom: 48px;
+}
+
+.info-1-content {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
