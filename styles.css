@@ -185,3 +185,14 @@ button {
     border-color: #f9faf8;
     margin-bottom: 0;
 }
+
+/* Footer styles. */
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0 32px 0;
+    color:#e5e7eb;
+    font-size: 18px;
+}
