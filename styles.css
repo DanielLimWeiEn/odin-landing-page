@@ -16,14 +16,23 @@ a {
     color: #e5e7eb;
 }
 
+button {
+    display:flex;
+    padding: 8px 24px;
+    border-radius: 12px;
+    background-color: #3882f6;
+    border-color: #3882f6;
+    border-style: solid;
+}
+
 /* Header Styles. */
 
 .header {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    padding-left: 48px;
-    padding-right: 48px;
+    padding-left: 96px;
+    padding-right: 96px;
     padding-top: 16px;
     padding-bottom: 16px;
 }
@@ -49,7 +58,8 @@ a {
     display: flex;
     align-content: center;
     justify-content: space-between;
-    margin-bottom: 48px;
+    margin: 64px 0;
+    gap: 24px
 }
 
 .headertext {
@@ -58,10 +68,17 @@ a {
 
 .headerimage {
     flex: 1;
+    background-color: grey
 }
 
 .title {
     font-size: 48px;
     font-weight:bolder;
     color: #f9faf8;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 12px;
 }
